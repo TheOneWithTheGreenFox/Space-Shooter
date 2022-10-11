@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de549cf9f18e28c48980eedba1d6840b
+timeCreated: 1615819273
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - EnemtLaserPrefab: {fileID: 1265354195432870, guid: 3d3ea472064763b45bfc3ecb9c801b80,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

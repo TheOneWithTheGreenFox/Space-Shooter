@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Lose.unity
+    guid: 95cafc2b7decfc843a48c5dfe587e281
+  - enabled: 1
+    path: Assets/Space shooter.unity
+    guid: 7f9a2ee497aa1cc4ab7101ec3a350699
+  - enabled: 1
+    path: Assets/Start.unity
+    guid: 75a02f1bf02a9604c8bdd21c43601b75
+  - enabled: 1
+    path: Assets/Win.unity
+    guid: 00000000000000000000000000000000

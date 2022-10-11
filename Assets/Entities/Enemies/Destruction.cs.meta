@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1853142965d543643957363fe7bd870f
+timeCreated: 1616757847
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - enemy1Prefab: {instanceID: 0}
+  - EnemyLaserPrefab: {fileID: 1265354195432870, guid: 3d3ea472064763b45bfc3ecb9c801b80,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

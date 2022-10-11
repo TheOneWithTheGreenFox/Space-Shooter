@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a9a2eb21307567b468107f4b8a661be6
+timeCreated: 1615825748
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PlayerLife1: {fileID: 1450086266688182, guid: feb4d451e7ab2c84cb042552986ca8a8,
+      type: 2}
+  - PlayerLife2: {fileID: 1344148184637680, guid: ba5f254df1dab454caf37f614bfc0e0e,
+      type: 2}
+  - PlayerLife3: {fileID: 1649937492277590, guid: 6f9ecdcce9299694891e7db4ecd272c8,
+      type: 2}
+  - laserPrefab: {fileID: 1780033587966780, guid: 38ff294210b3138489694c6cf85d7d3a,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
