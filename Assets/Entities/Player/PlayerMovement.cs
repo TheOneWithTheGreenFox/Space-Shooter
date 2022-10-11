@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PlayerMovement : MonoBehaviour {
@@ -11,7 +12,9 @@ public class PlayerMovement : MonoBehaviour {
     public GameObject PortalPrefab;
     public AudioClip EngineSound;
     public AudioClip OutOfAmmo;
-    float Speed = 0.2f;
+
+    public float Speed = 0.2f;
+
     float Xmin;
     float Xmax;
     float Ymin;
@@ -49,7 +52,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             Destroy(gameObject, 0.4f);
             Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
-            Application.LoadLevel("Lose");
+            SceneManager.LoadScene("Lose");
         }
     }
 
@@ -78,7 +81,7 @@ public class PlayerMovement : MonoBehaviour {
         //Win detection
         if(formation.Score == 180)
         {
-            Application.LoadLevel("Win");
+            SceneManager.LoadScene("Win");
         }
     }
 
@@ -123,6 +126,7 @@ public class PlayerMovement : MonoBehaviour {
         //    transform.position += new Vector3(0, -1, 0) * Speed;
         //    AudioSource.PlayClipAtPoint(EngineSound, transform.position);
         //}
+
         //X movement
         //Arrows
         if (Input.GetKey(KeyCode.RightArrow))
